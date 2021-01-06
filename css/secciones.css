@@ -1,0 +1,22 @@
+#secciones h2, h3{
+    text-align: center;
+}
+#secciones .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#secciones article{
+    margin: 15px;
+}
+#secciones img{
+    width: 100%;
+    max-width: 250px;
+}
+#secciones a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    display: block;
+    text-align: center;
+}
