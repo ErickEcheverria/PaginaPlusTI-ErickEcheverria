@@ -1,5 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(banner.css);
+
+
 body{
-    font-family: arial, helvestica;
+    font-family: 'Open Sans', sans-serif;
     background: #002a5a ;
     font-size:larger;
     color: white;
@@ -8,9 +12,13 @@ body{
     list-style: none;
     padding: 0;
     background: #1c62b5;
-    width: 90%;
-    
+    width: 100%;
     margin: auto;
+    
+    position: center;
+    top: auto;
+    left: auto;
+    z-index: 100;
 }
 .menu li a{
     text-decoration: none;
@@ -24,4 +32,15 @@ body{
 }
 .menu li a:hover{
     background-color: blue;
+}
+.contenedor{
+    width: 98%;
+    margin: auto;
+}
+h1{
+    float: left;
+}
+section{
+    width: 100%;
+    margin-bottom: 25px;
 }
