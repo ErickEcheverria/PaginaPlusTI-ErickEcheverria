@@ -80,3 +80,9 @@ section{
     text-decoration: none;
     color: #3498db;
 }
+/* PDF*/
+iframe{
+    margin: auto;
+    width: 90%;
+    height: 150vh;
+}
