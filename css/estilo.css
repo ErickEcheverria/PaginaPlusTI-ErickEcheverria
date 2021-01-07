@@ -16,8 +16,8 @@ body{
     width: 100%;
     margin: auto;
     
-    position: center;
-    top: auto;
+    position: fixed;
+    top: 0;
     left: auto;
     z-index: 100;
 }
@@ -32,7 +32,7 @@ body{
     text-align: center;
 }
 .menu li a:hover{
-    background-color: blue;
+    background-color: rgb(30, 30, 138);
 }
 .contenedor{
     width: 98%;
@@ -40,6 +40,25 @@ body{
 }
 h1{
     float: left;
+}
+h2{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    
+}
+.MonitorPlus h4{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    color: rgba(177, 160, 160, 0.5);
+    
+}
+h5{
+    text-align: justify;
+    width: 80%;
+    margin: auto;
+    
 }
 section{
     width: 100%;
